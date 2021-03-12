@@ -1,0 +1,29 @@
+material Warehouse/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture warehouse.jpg
+      }
+    }
+  }
+}
+
+material Warehouse/Specular
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture warehouse.jpg
+      }
+    }
+  }
+}

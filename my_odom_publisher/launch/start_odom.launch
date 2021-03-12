@@ -1,0 +1,3 @@
+<launch>
+    <node name="odom_pub" pkg="my_odom_publisher" type="odom.py" output="screen" />
+</launch>
