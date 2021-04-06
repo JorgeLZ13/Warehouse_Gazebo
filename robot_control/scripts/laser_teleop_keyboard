@@ -72,7 +72,7 @@ speedBindings={
           
 liftingTray={
         'r':(1),
-        'v':(-1),
+        'v':(0),
             }
 
 def getKey():
