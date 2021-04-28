@@ -1,8 +1,10 @@
-<h1 align="center">Nome do Projeto</h1>
 
 <p align="middle">
 <img src="https://github.com/JorgeLZ13/Warehouse_Gazebo/blob/main/Logo%20simulador%20do%20rob%C3%B4.png"  height="243" width="541"/>
 </p>
+
+<h1 align="center">Nome do Projeto</h1>
+
 
 ## Descrição do Projeto:
 
