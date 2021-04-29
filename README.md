@@ -25,7 +25,7 @@ Tabela de conteúdos
       * [Como executar o controle do robô](#Como-executar-o-controle-do-robô)
       * [Como executar o Rviz](#Como-executar-o-Rviz)
    * [Pré-requisitos](#Pré-requisitos)
-   * [Tecnologias](#Tecnologias-🛠)
+   * [Tecnologias](#Tecnologias)
    * [Autor](#Autor)
 <!--te-->
 
