@@ -17,24 +17,25 @@ Esse projeto tem o intuito de simular um armazém de distribuição através do 
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
+   * [Descrição](#Descrição)
    * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Executando a simulação](#Executando a Simulação)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
+   * [Instalação](#Instalação)
+   * [Executando a simulação](#Executando-a-Simulação)
+      * [Como executar o ambiente de simulação](#Como-executar-o-ambiente-de-simulação)
+      * [Como executar o controle do robô](#Como-executar-o-controle-do-robô)
+      * [Como executar o Rviz](#Como-executar-o-Rviz)
+   * [Pré-requisitos](#Pré-requisitos)
+   * [Tecnologias](#Tecnologias)
 <!--te-->
+
+##Instalação 
+
 
 ## Executando a Simulação
 
 ### Como executar o ambiente de simulação
 
-### Como executar o controle
+### Como executar o controle do robô
 
 ### Como executar o Rviz
 
