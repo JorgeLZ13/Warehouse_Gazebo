@@ -20,19 +20,32 @@ Tabela de conteúdos
    * [Sobre](#Sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
+   * [Executando a simulação](#Executando a Simulação)
       * [Pre Requisitos](#pre-requisitos)
       * [Local files](#local-files)
       * [Remote files](#remote-files)
       * [Multiple files](#multiple-files)
       * [Combo](#combo)
    * [Tests](#testes)
-   * [Tecnologias](#tecnologias) 
+   * [Tecnologias](#tecnologias)
 <!--te-->
 
-## Pré-requisitos ⚒️
+## Executando a Simulação
 
+### Como executar o ambiente de simulação
 
-## Tecnologias utilizadas
+### Como executar o controle
+
+### Como executar o Rviz
+
+## Pré-requisitos 
+* Ubuntu 20.04
+* ROS Noetic
+
+## 🛠 Tecnologias
+* Gazebo
+* ROS Noetic
+* Rviz
+* 
 
 ## Autor
