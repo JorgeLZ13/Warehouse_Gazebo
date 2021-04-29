@@ -44,7 +44,7 @@ Tabela de conteúdos
 * Ubuntu 20.04
 * ROS Noetic
 
-## Tecnologias 🛠
+## Tecnologias
 * Gazebo
 * ROS Noetic
 * Rviz
