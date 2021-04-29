@@ -18,7 +18,7 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Descrição](#Descrição)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Tabela de Conteudo](#Tabela-de-conteúdos)
    * [Instalação](#Instalação)
    * [Executando a simulação](#Executando-a-Simulação)
       * [Como executar o ambiente de simulação](#Como-executar-o-ambiente-de-simulação)
@@ -26,9 +26,10 @@ Tabela de conteúdos
       * [Como executar o Rviz](#Como-executar-o-Rviz)
    * [Pré-requisitos](#Pré-requisitos)
    * [Tecnologias](#Tecnologias)
+   * [Autor](#Autor)
 <!--te-->
 
-##Instalação 
+## Instalação 
 
 
 ## Executando a Simulação
@@ -43,7 +44,7 @@ Tabela de conteúdos
 * Ubuntu 20.04
 * ROS Noetic
 
-## 🛠 Tecnologias
+## Tecnologias 🛠
 * Gazebo
 * ROS Noetic
 * Rviz
