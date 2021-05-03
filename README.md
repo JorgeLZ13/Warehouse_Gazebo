@@ -19,35 +19,48 @@ Tabela de conteúdos
 <!--ts-->
    * [Descrição](#Descrição)
    * [Tabela de Conteudo](#Tabela-de-conteúdos)
+   * [Pré-requisitos](#Pré-requisitos)
    * [Instalação](#Instalação)
    * [Executando a simulação](#Executando-a-Simulação)
       * [Como executar o ambiente de simulação](#Como-executar-o-ambiente-de-simulação)
       * [Como executar o controle do robô](#Como-executar-o-controle-do-robô)
       * [Como executar o Rviz](#Como-executar-o-Rviz)
-   * [Pré-requisitos](#Pré-requisitos)
+   
    * [Tecnologias](#Tecnologias)
    * [Autor](#Autor)
 <!--te-->
 
+## Pré-requisitos 
+* Ubuntu 20.04
+* ROS Noetic
+* Gazebo
+* Rviz
+
 ## Instalação 
+Para instalar o robô coloque os pacotes <code> robot_descriptoin</code> e <code> robot_control</code> em seguida faça o catkin_make do seu workspace.
 
 
 ## Executando a Simulação
 
 ### Como executar o ambiente de simulação
+Para executar o ambiente de simulação utilize o comando:
+
+<p>
+  <code>roslaunch robot_description spawn.launch</code>
+</p>
 
 ### Como executar o controle do robô
 
+Para executar o controle do robô você utiliza o comando:
+<p>
+<code>roslaunch robot_control control.launch</code>
+</p>
+
 ### Como executar o Rviz
 
-## Pré-requisitos 
-* Ubuntu 20.04
-* ROS Noetic
-
-## Tecnologias
-* Gazebo
-* ROS Noetic
-* Rviz
-* 
+Para executar o controle do robô você utiliza o comando:
+<p>
+<code>roslaunch robot_control control.launch</code>
+</p>
 
 ## Autor
