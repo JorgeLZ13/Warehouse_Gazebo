@@ -25,8 +25,6 @@ Tabela de conteúdos
       * [Como executar o ambiente de simulação](#Como-executar-o-ambiente-de-simulação)
       * [Como executar o controle do robô](#Como-executar-o-controle-do-robô)
       * [Como executar o Rviz](#Como-executar-o-Rviz)
-   
-   * [Tecnologias](#Tecnologias)
    * [Autor](#Autor)
 <!--te-->
 
@@ -41,7 +39,10 @@ Tabela de conteúdos
 
 ## Instalação 
 Em seu Workspace dentro da pasta <code>src</code> coloque os pacotes <code>robot_description</code> e <code>robot_control</code> 
-em seguida faça o <code>catkin_make</code> para instalar os pacotes.
+em seguida faça o seguinte comando para instalar os pacotes:
+<pre>
+catkin_make
+</pre>
 
 
 ## Executando a Simulação
@@ -49,33 +50,32 @@ em seguida faça o <code>catkin_make</code> para instalar os pacotes.
 ### Como executar o ambiente de simulação
 Agora você pode usar o seguinte comando para iniciar o ambiente(use estes comandos dentro do seu workspace):
 
-<p>
-  <code> source ./devel/setup.bash </code> <br />
-  <code>roslaunch robot_description spawn.launch</code>
-</p>
+<pre>
+source ./devel/setup.bash<br />
+roslaunch robot_description spawn.launch
+</pre>
 
 Se tudo der certo você verá o laser_bot dentro no meio da warehouse.
 
 ### Como executar o controle do robô
 Se você quiser mover o robô pela warehouse use os seguintes comandos:
-
-<p>
-    <code> source ./devel/setup.bash </code> <br />
-    <code>roslaunch robot_control control.launch</code>
-</p>
+<pre>
+source ./devel/setup.bash<br />
+roslaunch robot_control control.launch
+</pre>
 
 Caso queira mover a bandeja utilize o comando abaixo em outro terminal com <code>"data: 1"</code> para subir e <code>"data: 0"</code> para descer:
 
-<p>
-    <code>rostopic pub -1 /my_robot/joint1_position_controller/command std_msgs/Float64 "data: 0"</code>
-</p>
+<pre>
+rostopic pub -1 /my_robot/joint1_position_controller/command std_msgs/Float64 "data: 0"
+</pre>
 
 ### Como executar o Rviz
 Para utilizar os sensores como <code>câmera</code> e <code>laser</code> criamos um atalho através do Rviz:
 
-<p>
-    <code> source ./devel/setup.bash </code> <br />
-    <code>roslaunch robot_description rviz.launch</code>
-</p>
+<pre>
+source ./devel/setup.bash <br />
+roslaunch robot_description rviz.launch
+</pre>
 
 ## Autor
