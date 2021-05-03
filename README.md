@@ -14,6 +14,10 @@ Esse projeto tem o intuito de simular um armazém de distribuição através do 
 
 ## Demonstração da aplicação
 
+<img src="https://github.com/JorgeLZ13/Warehouse_Gazebo/blob/main/laser_bot.png"  height="238" width="392"/>
+<img src="https://github.com/JorgeLZ13/Warehouse_Gazebo/blob/main/warehouse_gazebo.png"  height="366" width="651"/>
+
+
 Tabela de conteúdos
 =================
 <!--ts-->
