@@ -32,35 +32,50 @@ Tabela de conteúdos
 
 ## Pré-requisitos 
 * Ubuntu 20.04
-* ROS Noetic
-* Gazebo
-* Rviz
+* <a href="http://wiki.ros.org/noetic/Installation/Ubuntu"> ROS Noetic</a>
+* <a href="http://gazebosim.org/tutorials?tut=install_ubuntu"> Gazebo</a>
+* <a href="http://gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros"> Gazebo ROS Packages</a>
+* <a href="http://wiki.ros.org/rviz/UserGuide"> Rviz</a>
+* <a href="https://docs.python-guide.org/starting/install3/linux/"> Python 3.8</a>
+* <a href="http://wiki.ros.org/ros_control"> ROS Control</a>
 
 ## Instalação 
-Para instalar o robô coloque os pacotes <code> robot_descriptoin</code> e <code> robot_control</code> em seguida faça o catkin_make do seu workspace.
+Em seu Workspace dentro da pasta <code>src</code> coloque os pacotes <code>robot_description</code> e <code>robot_control</code> 
+em seguida faça o <code>catkin_make</code> para instalar os pacotes.
 
 
 ## Executando a Simulação
 
 ### Como executar o ambiente de simulação
-Para executar o ambiente de simulação utilize o comando:
+Agora você pode usar o seguinte comando para iniciar o ambiente(use estes comandos dentro do seu workspace):
 
 <p>
+  <code> source ./devel/setup.bash </code> <br />
   <code>roslaunch robot_description spawn.launch</code>
 </p>
 
-### Como executar o controle do robô
+Se tudo der certo você verá o laser_bot dentro no meio da warehouse.
 
-Para executar o controle do robô você utiliza o comando:
+### Como executar o controle do robô
+Se você quiser mover o robô pela warehouse use os seguintes comandos:
+
 <p>
-<code>roslaunch robot_control control.launch</code>
+    <code> source ./devel/setup.bash </code> <br />
+    <code>roslaunch robot_control control.launch</code>
+</p>
+
+Caso queira mover a bandeja utilize o comando abaixo em outro terminal com <code>"data: 1"</code> para subir e <code>"data: 0"</code> para descer:
+
+<p>
+    <code>rostopic pub -1 /my_robot/joint1_position_controller/command std_msgs/Float64 "data: 0"</code>
 </p>
 
 ### Como executar o Rviz
+Para utilizar os sensores como <code>câmera</code> e <code>laser</code> criamos um atalho através do Rviz:
 
-Para executar o controle do robô você utiliza o comando:
 <p>
-<code>roslaunch robot_control control.launch</code>
+    <code> source ./devel/setup.bash </code> <br />
+    <code>roslaunch robot_description rviz.launch</code>
 </p>
 
 ## Autor
