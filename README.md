@@ -1,6 +1,6 @@
 
 <p align="middle">
-<img src="https://github.com/JorgeLZ13/Warehouse_Gazebo/blob/main/Logo%20simulador%20do%20rob%C3%B4.png"  height="243" width="541"/>
+<img src="https://github.com/JorgeLZ13/Warehouse_Gazebo/blob/main/gazebo-simulations.png"  height="352" width="555"/>
 </p>
 
 <h1 align="center">L-Bot: a Warehouse Robot Simulation</h1>
