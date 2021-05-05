@@ -17,6 +17,11 @@ Inspired by robots like the Kiva robot, the L-Bot is a robot for distribution ce
 <img src="https://github.com/JorgeLZ13/Warehouse_Gazebo/blob/main/laser_bot.png"  height="238" width="392"/>
 <img src="https://github.com/JorgeLZ13/Warehouse_Gazebo/blob/main/warehouse_gazebo.png"  height="366" width="651"/>
 
+Click on the image below to watch a demonstration of the simulation: <br >
+
+[![Warehouse Gazebo Simulation](http://img.youtube.com/vi/3MY5E4lOR98/0.jpg)](http://www.youtube.com/watch?v=3MY5E4lOR98 "Warehouse Gazebo Simulation")
+
+
 
 Contents
 =================
